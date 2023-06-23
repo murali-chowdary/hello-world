@@ -13,7 +13,7 @@
     <label for="psw-repeat"><b>Repeat Password</b></label>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
- <label for="dob"><b>Repeat Password</b></label>
+    <label for="dob"><b>dob</b></label>
     <input type="dob" placeholder="dob" name="dob" required>
 
     <label>
