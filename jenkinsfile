@@ -1,19 +1,19 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('clone') {
             steps {
-                git clone 
+                git clone https://github.com/murali-chowdary/hello-world.git
             }
         }
-        stage('Test') {
+        stage('build') {
             steps {
-                //
+                mvn package 
             }
         }
-        stage('Deploy') {
+        stage('test') {
             steps {
-                //
+                mvn test
             }
         }
     }
